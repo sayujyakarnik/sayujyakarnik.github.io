@@ -1,19 +1,24 @@
 body{
   background-color: #D7E9B9;
 }
-
-
+img{
+  position:relative;
+  margin-top: 5%;
+  height: 240px;
+  width: 600px;
+}
+a{
+  padding-left: 30%;
+}
 .head{
   display: flex;
   justify-content: center;
   color: #FAAB78;
 }
+
 .card{
-  position:relative ;
-  margin-top: 5%;
-  margin-left: 30%;
-  height: 240px;
-  width: 600px;
+  background-color: #D7E9B9;
+  border: none;
 }
 .card_info{
   text-align: center;
