@@ -1,9 +1,13 @@
+.full-screen{
 
+}
 .main-screen{
   background-image:url('https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif');
   background-repeat:repeat;
-  height:660px;
+  height: auto;
   background-size:100% 100%;
+  width: 100%;
+
 }
 .logo{
   height:50px;
@@ -11,13 +15,15 @@
   border-radius: 5px;
 }
 .logo_text{
+
   margin-left: 15px;
 }
 a{
   color:#FAF8F1;
   text-decoration: none;
+  padding-left: 20px;
 }
-.container{
+.container-fluid{
   padding-top: 5px;
   color:#FAF8F1;
 }
@@ -36,30 +42,18 @@ a{
   padding-top: 10%;
   width: 20%;
   top: 10%;
-  position: absolute;
-  left: 40%;
-  border-bottom: 5px solid white;
-  overflow: hidden;
-  animation: animate 2s linear forwards;
+  position:relative;
+  left: 30%;
+
+  margin-bottom: 440px;
 }
-@keyframes animate {
-     0% {
-         width: 0px;
-         height: 0px;
-     }
-     30% {
-         width: 50px;
-         height: 0px;
-     }
-     60% {
-         width: 50px;
-         height: 80px;
-     }
- }
+
 .about{
   background-color: #FAF8F1;
   padding-top: 5%;
   padding-left: 10%;
+  height:500px;
+
 }
 
 .title{
@@ -73,6 +67,7 @@ span{
   padding-top: 5%;
   background-color: #1A120B;
   padding-bottom: 5%;
+
 }
 .icons{
   color: white;
