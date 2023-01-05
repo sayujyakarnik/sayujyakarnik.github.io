@@ -1,5 +1,6 @@
-.full-screen{
-
+body {
+  font-family: Montserrat;
+  width: 100%;
 }
 .main-screen{
   background-image:url('https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif');
@@ -49,19 +50,72 @@ a{
 }
 
 .about{
-  background-color: #FAF8F1;
-  padding-top: 5%;
+  background-color: #1A120B;
+  padding-top: 2%;
   padding-left: 10%;
-  height:500px;
+  padding-bottom: 2%;
+}
+.about_text{
+  padding: 5px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  color: #E5E5CB;
+}
+.skills{
+  background-color: #3C2A21;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-bottom: 5%;
 
 }
+.skills_text{
+  padding: 5px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  color: #E5E5CB;
+}
+.skill-bar{
+  display: flex;
+}
+.skill{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.progress_bar{
+  background-color: #959595;
+  width: 300px;
+  height: 2px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+.progress_bar .bar{
+  height: 2px;
+  border-radius: 5px;
+}
 
+.html{
+  background-color: #08fdd8;
+  width: 86%
+
+}
+.css{
+  background: rgb(255, 34, 83);
+  width: 76%
+
+}
+.javascript{
+  background: rgb(210, 108, 213);
+  width: 56%
+
+}
+.python{
+  background-color: #cddc39;
+  width: 66%
+}
 .title{
-  color:#439A97;
+  color:#D5CEA3;
   animation-delay: 2s;
-}
-span{
-  padding-left:20px;
 }
 .contact{
   padding-top: 5%;
@@ -69,10 +123,17 @@ span{
   padding-bottom: 5%;
 
 }
-.icons{
-  color: white;
-  height: 30px;
-  width: 30px;
+.contact_title{
+  padding-left: 10%;
+  color:#ECE8DD;
+  animation-delay:4s;
+}
+.contact_text{
+  padding: 5px;
+  padding-left: 11%;
+  line-height: 1.5;
+  word-spacing: 2px;
+  color: #E5E5CB;
 }
 .contact_links{
   display:flex;
@@ -80,8 +141,10 @@ span{
   align-items:center;
 
 }
-.contact_title{
-  padding-left: 10%;
-  color:#ECE8DD;
-  animation-delay:4s;
+.icons{
+  color: white;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  padding: 2%;
 }
