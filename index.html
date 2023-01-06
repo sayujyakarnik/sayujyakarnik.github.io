@@ -17,6 +17,11 @@
 
   </head>
   <body>
+    <div id="preloader">
+
+    </div>
+
+
     <section class="full-screen">
       <div class="main-screen">
         <div class="container-fluid">
@@ -45,18 +50,31 @@
   <section>
     <div class="about ">
       <h3 class="title animate__animated animate__bounceInLeft">  About</h3>
-      <div class="about_text">
-        <p>Hello and welcome to my portfolio website!, I am a full stack developer with a passion for making a design come to life. <br>
-           I have had the opportunity to work on a variety of projects. I am a proactive, detail-oriented individual with strong problem-solving and communication skills. <br> I am always looking for ways to learn and grow, and am excited to continue building my skills and experience in the software industary.</p>
+      <div class="row">
+        <div class="col-sm-12 col-md-2">
+          <img class="avatar" src="avatar.png" alt="avatar">
+
+        </div>
+        <div class="col-sm-12 col-md-10">
+          <div class="about_text">
+
+            <p>Hello and welcome to my portfolio website!, I am a full stack developer with a passion for making a design come to life. <br>
+               I have had the opportunity to work on a variety of projects. I am a proactive, detail-oriented individual with strong problem-solving and communication skills. <br> I am always looking for ways to learn and grow, and am excited to continue building my skills and experience in the software industary.</p>
+
+          </div>
+
+        </div>
 
       </div>
+
+
     </div>
   </section >
   <section class="skills">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 ">
-          <h3 class="title animate__animated animate__bounceInLeft"> skills</h3>
+          <h3 class="title animate__animated animate__bounceInLeft"> Skills</h3>
           <div class="skills_text">
             <p>I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, features, animations, and coding interactive layouts.</p>
 
@@ -106,7 +124,7 @@
 
       <div class="contact_links">
 
-        <a class="icons" href="https://www.linkedin.com/sayujyakarnik/"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="icons" href="https://www.linkedin.com/in/sayujya-karnik-751949255"><i class="fa-brands fa-linkedin"></i></a>
         <a class="icons" href="https://www.instagram.com/sayujyakarnik/" title="instagram icons"><i class="fa-brands fa-instagram"></i></a>
 
       </div>
@@ -122,6 +140,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- Fab icon-->
-<script src="https://kit.fontawesome.com/054468ca62.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/054468ca62.js" crossorigin="anonymous"></script>
+    <!-- loader script-->
+    <script >
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load",function(){
+        loader.style.display = "none";
+      })
+    </script>
+
   </body>
 </html>
