@@ -63,6 +63,7 @@ a{
   display: grid;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
 }
 .about_text{
   padding: 5px;
