@@ -2,11 +2,22 @@ body {
   font-family: Montserrat;
   width: 100%;
   line-height: 1.5;
+  background-color:black;
 }
 p{
   font-size: 20px;
 }
-
+.main_text{
+  font-size: 200%;
+}
+@media only screen and (max-width: 600px) {
+  .main-screen{
+  backgr
+  }
+  .main_text{
+  font-size: 190%;
+}
+}
 /* https://loading.io/asset/642845  */
 /* https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif  */
 
@@ -18,6 +29,7 @@ p{
   width: 100%;
 
 }
+
 .logo{
   height:50px;
   width: 50px;
