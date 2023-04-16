@@ -38,3 +38,13 @@ a{
   position: fixed;
   z-index: 100;
 }
+.background{
+width: auto;
+text-align: center;
+padding: 15px;
+border: 3px;
+}
+.resume_image{
+max-width: 100%;
+height: auto;
+}

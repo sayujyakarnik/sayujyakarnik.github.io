@@ -83,6 +83,7 @@ a{
 }
 .about_text{
   padding: 5px;
+  padding-left:0px;
   line-height: 1.5;
   word-spacing: 2px;
   color: #E5E5CB;
