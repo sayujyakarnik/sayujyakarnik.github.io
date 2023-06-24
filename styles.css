@@ -67,7 +67,7 @@ a{
 }
 
 .about{
-  background-color: #1A120B;
+  background-color:#FF1E00;/*  #1A120B; */
   padding-top: 2%;
   padding-left: 10%;
   padding-bottom: 2%;
@@ -87,7 +87,7 @@ a{
   font-size: 25px;
 }
 .skills{
-  background-color: #3C2A21;
+  background-color:#DC5F00;/* #3C2A21; */
   padding-top: 2%;
   padding-left: 2%;
   padding-bottom: 5%;
@@ -145,7 +145,7 @@ a{
 }
 .contact{
   padding-top: 5%;
-  background-color: #1A120B;
+  background-color: #59CE8F;/*  #1A120B; */
   padding-bottom: 5%;
 
 }
