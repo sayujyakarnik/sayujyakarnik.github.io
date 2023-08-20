@@ -3,50 +3,43 @@ body {
   font-family: Montserrat;
 }
 img {
-  margin-top: 5%;
   border: 5px solid #fff;
   border-radius: 5%;
-  width: 900px;
+}
+.project-img {
+  width: 400px;
   height: 500px;
-  object-fit: cover;
+  object-fit: fill;
+}
+.row {
+  border-radius: 5%;
+  background-color: #94b85d2d;
+  opacity: 0.9;
+  margin-bottom: 40px;
 }
 .head {
   display: inline-block;
   justify-content: center;
   color: #faab78;
+  padding-left: 50%;
 }
-
-.card {
-  display: inline-block;
-
-  background-color: #d7e9b9;
-  border: none;
+.project-discription {
+  color: #6b757f;
+  font-size: 40px;
+  padding-top: 40%;
 }
-.card_info {
-  text-align: center;
-}
-
-@media (max-width: 400px) {
-  .calculator-image {
+@media only screen and (max-width: 368px) {
+  .project-img {
     width: 200px;
     height: 300px;
-    object-fit: cover;
-  }
-  .img-holder {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
+    object-fit: fill;
   }
 }
-
-@media (max-width: 600px) {
-  .calculator-image {
-    width: 200px;
-    height: 300px;
-  }
-  .img-holder {
-    width: 200px;
-    height: 300px;
+@media only screen and (max-width: 568px) and (min-width: 400px) {
+  .project-img {
+    width: 400px;
+    height: 500px;
+    object-fit: fill;
   }
 }
 

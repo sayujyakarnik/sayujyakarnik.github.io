@@ -2,181 +2,177 @@ body {
   font-family: Montserrat;
   width: 100%;
   line-height: 1.5;
-  background-color:black;
+  background-color: rgb(11, 19, 29);
 }
-p{
+p {
   font-size: 20px;
 }
-.main_text{
+.main_text {
   font-size: 200%;
 }
 @media only screen and (max-width: 600px) {
-  .main_text{
-  font-size: 190%;
-}
+  .main_text {
+    font-size: 190%;
+  }
 }
 /* https://loading.io/asset/642845  */
 /* https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif  */
 
-.main-screen{
-  background-image:url('Speedline.svg');
-  background-repeat:repeat;
+.main-screen {
+  background-image: url("Speedline.svg");
+  background-repeat: repeat;
   height: auto;
-  background-size:100% 100%;
+  background-size: 100% 100%;
   width: 100%;
-
 }
 
-.logo{
-  height:50px;
+.logo {
+  height: 50px;
   width: 50px;
   border-radius: 5px;
 }
-.logo_text{
-
+.logo_text {
   margin-left: 15px;
 }
-a{
-  color:#FAF8F1;
+a {
+  color: #faf8f1;
   text-decoration: none;
   padding-left: 20px;
 }
-.container-fluid{
+.container-fluid {
   padding-top: 5px;
-  color:#FAF8F1;
+  color: #faf8f1;
 }
-.name-logo{
-  display:flex;
+.name-logo {
+  display: flex;
   padding-left: 10px;
-
 }
-.navigation{
+.navigation {
   text-align: right;
 }
 
-
-.front-page{
-  color:#FAF8F1;
+.front-page {
+  color: #faf8f1;
   padding-top: 10%;
   width: 20%;
   top: 10%;
-  position:relative;
+  position: relative;
   left: 30%;
 
   margin-bottom: 440px;
 }
 
-.about{
-  background-color:#FF1E00;/*  #1A120B; */
+.about {
+  background-color: #ff1e00; /*  #1A120B; */
   padding-top: 2%;
   padding-left: 10%;
   padding-bottom: 2%;
+  opacity: 0.8;
+  border-radius: 4%;
+  margin: 1%;
 }
-.avatar{
+.avatar {
   display: grid;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
 }
-.about_text{
+.about_text {
   padding: 5px;
-  padding-left:0px;
+  padding-left: 0px;
   line-height: 1.5;
   word-spacing: 2px;
-  color: #E5E5CB;
+  color: #e5e5cb;
   font-size: 25px;
 }
-.skills{
-  background-color:#DC5F00;/* #3C2A21; */
+.skills {
+  background-color: #dc5f00; /* #3C2A21; */
   padding-top: 2%;
   padding-left: 2%;
   padding-bottom: 5%;
-
+  opacity: 0.8;
+  border-radius: 4%;
+  margin: 1%;
 }
-.skills_text{
+.skills_text {
   padding: 5px;
   line-height: 1.5;
   word-spacing: 2px;
-  color: #E5E5CB;
+  color: #e5e5cb;
   font-size: 25px;
 }
-.skill-bar{
+.skill-bar {
   display: flex;
 }
-.skill{
+.skill {
   display: grid;
   justify-content: center;
   align-items: center;
 }
-.progress_bar{
+.progress_bar {
   background-color: #959595;
   width: 300px;
   height: 2px;
   border-radius: 5px;
   margin-bottom: 5%;
 }
-.progress_bar .bar{
+.progress_bar .bar {
   height: 2px;
   border-radius: 5px;
 }
 
-.html{
+.html {
   background-color: #08fdd8;
-  width: 86%
-
+  width: 86%;
 }
-.css{
+.css {
   background: rgb(255, 34, 83);
-  width: 76%
-
+  width: 76%;
 }
-.javascript{
+.javascript {
   background: rgb(210, 108, 213);
-  width: 56%
-
+  width: 56%;
 }
-.python{
+.python {
   background-color: #cddc39;
-  width: 66%
+  width: 66%;
 }
-.title{
-  color:#D5CEA3;
+.title {
+  color: #e5e5cb;
   animation-delay: 2s;
 }
-.contact{
+.contact {
   padding-top: 5%;
-  background-color: #59CE8F;/*  #1A120B; */
+  background-color: #181515; /*  #1A120B; */
   padding-bottom: 5%;
-
 }
-.contact_title{
+.contact_title {
   padding-left: 10%;
-  color:#ECE8DD;
-  animation-delay:4s;
+  color: #ece8dd;
+  animation-delay: 4s;
   font-size: 25px;
 }
-.contact_text{
+.contact_text {
   padding: 5px;
   padding-left: 11%;
   line-height: 1.5;
   word-spacing: 2px;
-  color: #E5E5CB;
+  color: #e5e5cb;
 }
-.contact_links{
-  display:flex;
+.contact_links {
+  display: flex;
   justify-content: center;
-  align-items:center;
-
+  align-items: center;
 }
-.icons{
+.icons {
   color: white;
-  height: 30px;
-  width: 30px;
-  font-size: 20px;
-  padding: 2%;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  padding: 2% 10%;
 }
-#preloader{
-  background: #f1f2f3 url(loder.gif) no-repeat center center ;
+#preloader {
+  background: #f1f2f3 url(loder.gif) no-repeat center center;
   background-size: 15%;
   width: 100%;
   height: 100vh;
