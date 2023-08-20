@@ -1,51 +1,71 @@
-body{
-  background-color: #D7E9B9;
+body {
+  background-color: #d7e9b9;
   font-family: Montserrat;
-  width: 100%;
 }
-img{
-  position:relative;
+img {
   margin-top: 5%;
-  height: 240px;
-  width: auto;
   border: 5px solid #fff;
   border-radius: 5%;
+  width: 900px;
+  height: 500px;
+  object-fit: cover;
 }
-a{
-  padding-left:0%;
-}
-.head{
-  display: flex;
+.head {
+  display: inline-block;
   justify-content: center;
-  color: #FAAB78;
+  color: #faab78;
 }
 
-.card{
+.card {
+  display: inline-block;
 
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  background-color: #D7E9B9;
+  background-color: #d7e9b9;
   border: none;
 }
-.card_info{
+.card_info {
   text-align: center;
 }
-#preloader{
-  background: #f1f2f3 url(loder.gif) no-repeat center center ;
+
+@media (max-width: 400px) {
+  .calculator-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .img-holder {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .calculator-image {
+    width: 200px;
+    height: 300px;
+  }
+  .img-holder {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+#preloader {
+  background: #f1f2f3 url(loder.gif) no-repeat center center;
   background-size: 15%;
   width: 100%;
   height: 100vh;
   position: fixed;
   z-index: 100;
 }
-.background{
-width: auto;
-text-align: center;
-padding: 15px;
-border: 3px;
+
+.background {
+  width: auto;
+  text-align: center;
+  padding: 15px;
+  border: 3px;
 }
-.resume_image{
-max-width: 100%;
-height: auto;
+.resume_image {
+  max-width: 100%;
+  height: auto;
 }

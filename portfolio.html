@@ -1,50 +1,109 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>portfolio</title>
-    <link rel="icon" href="sk-logo.png" type="image/.png">
+    <link rel="icon" href="sk-logo.png" type="image/.png" />
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    >
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="portfolio_styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="portfolio_styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="preloader">
-
-    </div>
-
-    <div class=" head">
-        <h1 class=" animate__animated animate__bounceInRight">Portfolio</h1>
-    </div>
-    <div class="card">
-      <a href="https://sayujyakarnik.github.io/meal-plus-website/"><img src="Meal_plus.png" alt="Meal plus"></a>
-      <div class="card_info">
-        <h5>Meal Plus</h5>
-        <p>Website to offer delicious marathi snacks.</p>
+    <div id="preloader"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="head">
+            <h1 class="animate__animated animate__bounceInRight">Portfolio</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-12 col-md-6 col-lg-6">
+          <div class="card">
+            <div class="img-holder">
+              <a href="https://sayujyakarnik.github.io/meal-plus-website/"
+                ><img src="Meal_plus.png" alt="Meal plus"
+              /></a>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-6"></div>
+          <div class="card_info">
+            <h5>Meal Plus</h5>
+            <p>Website to offer delicious marathi snacks.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-12 col-md-6">
+          <div class="card">
+            <div class="img-holder">
+              <a href="https://sayujyakarnik.github.io/calculator/"
+                ><img
+                  class="calculator-img"
+                  src="calculator_website.png"
+                  alt="calculator"
+              /></a>
+            </div>
+            <div class="col col-sm-12 col-md-6">
+              <div class="card_info">
+                <h5>calculator</h5>
+                <p>
+                  where numbers and equations get solved faster than a cheetah
+                  chasing its prey!".
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-12 col-md-6">
+          <div class="card">
+            <div class="img-holder">
+              <a href="https://sayujyakarnik.github.io/tic-tac-tao/"
+                ><img src="tic-tac-tao.png" alt="tic-tac-toe"
+              /></a>
+            </div>
+            <div class="col col-sm-12 col-md-6">
+              <div class="card_info">
+                <h5>calculator</h5>
+                <p>
+                  "Experience timeless fun with my new Tic Tac Toe game website,
+                  combining sleek design and intuitive gameplay for hours of
+                  entertainment!"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <a href="https://sayujyakarnik.github.io/calculator/"><img src="calculator_website.png" alt="Meal plus"></a>
-      <div class="card_info">
-        <h5>Calculator</h5>
-        <p>where numbers and equations get solved faster than a cheetah chasing its prey!".</p>
-      </div>
-    </div>
-
-
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
 
-    <script >
+    <script>
       var loader = document.getElementById("preloader");
-      window.addEventListener("load",function(){
+      window.addEventListener("load", function () {
         loader.style.display = "none";
-      })
+      });
     </script>
   </body>
 </html>
